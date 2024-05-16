@@ -1,0 +1,25 @@
+.Card{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    border:thin solid rgb(170, 170, 170);
+    border-radius: 10px;
+
+    &:hover{
+        transform: scale(1.05);
+        background-color: rgba(100, 80, 255, 0.73);
+        color:white;
+    }
+
+    .BtnContainer{
+        width:70%;
+        display: flex;
+        justify-content: space-around;
+        gap:0.5rem;
+    }
+
+}

@@ -1,0 +1,16 @@
+.MenuListMain{
+margin:3rem;
+ .heading{
+
+    text-align: center;
+ }
+    .Allmenu{
+        margin:2rem 0rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:3rem;
+    }
+}
